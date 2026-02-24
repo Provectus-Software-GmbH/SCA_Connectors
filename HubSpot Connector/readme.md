@@ -9,7 +9,7 @@ Organizations using HubSpot as a CRM who want to securely extend contact data to
 * **Cost Efficiency:** Provides access to HubSpot contacts without needing a "Full User" license for every employee.
 * **Hardened Security:** Features **AES-256 encryption**, tenant-specific isolation, and a passwordless Azure architecture (Managed Identities).
 * **Automated Sync:** Keeps contact data fresh via scheduled or manual triggers.
-* **Easy Configuration:** Dynamically generates the required AppConfig JSON for MDM deployment.
+* **Easy Configuration:** Dynamically generates the SCA AppConfig JSON needed for SCA to access the connector’s encrypted contact export in Azure Blob Storage (MDM-ready).
 
 ## High-Level Architecture
 1. **Trigger:** Azure Function fires (Timer or HTTP).

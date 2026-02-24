@@ -9,7 +9,7 @@ Organizations using Salesforce as a CRM who want to securely extend contact data
 * **Cost Efficiency:** Provides access to Salesforce contacts without needing a "Full User" license for every employee.
 * **Hardened Security:** Features **AES-256 encryption**, tenant-specific isolation, and a passwordless architecture (OAuth 2.0 JWT & Managed Identities).
 * **Automated Sync:** Keeps contact data fresh via scheduled or manual triggers.
-* **Easy Configuration:** Dynamically generates the required AppConfig JSON for MDM deployment.
+* **Easy Configuration:** Dynamically generates the SCA AppConfig JSON needed for SCA to access the connector's encrypted contact export in Azure Blob Storage (MDM-ready).
 
 ## High-Level Architecture
 1. **Trigger:** Azure Function fires (Timer or HTTP).
