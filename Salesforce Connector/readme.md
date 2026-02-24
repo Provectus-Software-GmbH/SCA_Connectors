@@ -2,8 +2,6 @@
 
 The **SCA Salesforce Connector** is a secure, "Zero-Trust" Azure Function App that bridges Salesforce CRM and the **Secure Contacts App (SCA)**. It automates the retrieval, encryption, and storage of Salesforce contacts, making them available to SCA users without requiring additional Salesforce licenses.
 
-For full documentation (including a detailed setup guide), refer to the documentation included in the connector ZIP package.
-
 ## Who is it for?
 Organizations using Salesforce as a CRM who want to securely extend contact data to SCA users - without compromising on security or compliance.
 
@@ -26,6 +24,8 @@ Organizations using Salesforce as a CRM who want to securely extend contact data
 
 ## Get started in minutes
 Provision in Azure, connect to Salesforce, and configure with just a few environment variables. Enjoy peace of mind with robust encryption, centralized secret management, and automated updates.
+
+> For full documentation (including a detailed setup guide), refer to the documentation included in the connector ZIP package.
 
 ----
 

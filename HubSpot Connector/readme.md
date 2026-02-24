@@ -2,8 +2,6 @@
 
 The **SCA HubSpot Connector** is a secure, "Zero-Trust" Azure Function App that bridges HubSpot CRM and the **Secure Contacts App (SCA)**. It automates the retrieval, encryption, and storage of HubSpot contacts, making them available to SCA users without requiring additional HubSpot licenses.
 
-For full documentation (including a detailed setup guide), refer to the documentation included in the connector ZIP package.
-
 ## Who is it for?
 Organizations using HubSpot as a CRM who want to securely extend contact data to SCA users - without compromising on security or compliance.
 
@@ -26,6 +24,8 @@ Organizations using HubSpot as a CRM who want to securely extend contact data to
 
 ## Get started in minutes
 Provision in Azure, connect to HubSpot, and configure with just a few environment variables. Enjoy peace of mind with robust encryption, centralized secret management, and automated updates.
+
+> For full documentation (including a detailed setup guide), refer to the documentation included in the connector ZIP package.
 
 ----
 
