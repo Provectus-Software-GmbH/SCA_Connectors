@@ -38,10 +38,10 @@ To get started:
 
 ```text
 /
-├── SCA_HubSpotConnector/
-├── SCA_SalesforceConnector/
-├── SCA_SAPConnector/
-└── SCA_AADCacheConnector/
+├── HubSpot Connector/
+├── Salesforce Connector/
+├── SAP Connector/
+└── AAD-Cache Connector/
 ```
 
 Each connector is provided in its own folder together with the corresponding release package and documentation.
